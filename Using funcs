@@ -1,0 +1,31 @@
+package main                   //main["fmt" func sub(){} func add(){} >>> FUNC MAIN(){} <<< fun ran(){}]
+import "fmt"
+
+func sub(u float64, d float64){
+    fmt.Println(u-d)
+}
+
+func add(a int, y int){
+    fmt.Println(a+y)
+}
+
+func main(){
+	var u float64
+	var d float64
+	var a int
+	var y int
+	u=1.99
+    d=2.084
+    a=3
+    y=8
+    sub(u,d)
+    add(a,y)
+    ran(u,d,a,y)
+    
+    
+}
+
+func ran(
+    u float64,d float64,a int,y int){
+    fmt.Println(u+d,a+y)
+}
