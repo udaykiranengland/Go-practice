@@ -1,0 +1,9 @@
+package main
+import "localgithub"                //importing custome package created and saved in a different folder in same file type.
+import "fmt"
+func main{                            //main[importing "localgithub" "fmt" {task3() operation2() operation1() requirment()}]
+    task3(a,b)
+    operation2(a,b)
+    operation1(a,b)
+    requirment4(a,b)
+} 
