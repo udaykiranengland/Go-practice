@@ -1,0 +1,22 @@
+package main
+import "fmt"
+
+func main(){                 //ex, of complex code...
+	var u float64
+	var d float64
+	var a int
+	var y int
+	u=1.99
+    d=2.084
+    a=3
+    y=8
+    fmt.Println(u-d,a+y)
+    
+    u=20
+    d=31
+    a=12
+    y=5
+    fmt.Println(u,d,a,y)
+    
+    
+}
