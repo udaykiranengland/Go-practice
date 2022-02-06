@@ -1,4 +1,4 @@
-package main                   //main["fmt" func sub(){} func add(){} >>> FUNC MAIN(){} <<< fun ran(){}]
+package main                   //main["fmt" func sub(){} func add(){} >>> FUNC MAIN(){} <<< fun ran(){}] for comlx code
 import "fmt"
 
 func sub(u float64, d float64){
