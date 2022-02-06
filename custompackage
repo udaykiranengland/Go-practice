@@ -1,0 +1,18 @@
+package localgithub                           //a custom package is created and saved as a different file when there are specific tasks and operations used by multiple programs...
+import "fmt"
+
+func  operation1(a int, b int){                   // it could be group of tasks, operations and requirments 
+    fmt.Println(a+b)
+}
+
+func operation2(a float64, b float64){                                            // localgithub[functions which carry tasks and operations]
+    fmt.Println(a-b)
+}
+
+func task3(a int, b int){
+    fmt.Print(a*b)
+}
+
+func requirment4(a int, b int){
+    fmt.Pritn(a/b)
+}
