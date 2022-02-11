@@ -1,0 +1,28 @@
+package main                                      // func ran(){} func main(){}        
+import "fmt"
+
+func ran(a int){
+    fmt.Println(a)
+}
+
+func main(){
+    var a int 
+    a = 7
+    ran(a)
+	
+}
+
+
+
+
+
+
+
+//package main                                    //func main(){}
+//import "fmt"
+
+//func main(){
+    //var a int
+    //a = 7
+    //fmt.Println(a)
+//} 
